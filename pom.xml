@@ -17,7 +17,7 @@
 
     <groupId>vkg.springframework</groupId>
     <artifactId>vkg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>vkg-pet-clinic</name>
     <description>vkg-pet-clinic</description>
@@ -53,6 +53,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:vishalkumargourav/vkg-pet-clinic.git</developerConnection>
-    </scm>
+      <tag>vkg-pet-clinic-0.0.1</tag>
+  </scm>
 
 </project>
