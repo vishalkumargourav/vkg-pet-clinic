@@ -55,7 +55,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/vishalkumargourav/vkg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:vishalkumargourav/vkg-pet-clinic.git</developerConnection>
       <tag>vkg-pet-clinic-0.0.1</tag>
   </scm>
 
