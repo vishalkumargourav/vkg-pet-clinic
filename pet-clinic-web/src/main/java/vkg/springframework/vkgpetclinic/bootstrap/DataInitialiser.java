@@ -6,8 +6,6 @@ import vkg.springframework.vkgpetclinic.model.Owner;
 import vkg.springframework.vkgpetclinic.model.Vet;
 import vkg.springframework.vkgpetclinic.services.OwnerService;
 import vkg.springframework.vkgpetclinic.services.VetService;
-import vkg.springframework.vkgpetclinic.services.map.OwnerServiceMapImpl;
-import vkg.springframework.vkgpetclinic.services.map.VetServiceMapImpl;
 
 @Component
 public class DataInitialiser implements CommandLineRunner {
