@@ -1,10 +1,12 @@
 package vkg.springframework.vkgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import vkg.springframework.vkgpetclinic.model.Pet;
 import vkg.springframework.vkgpetclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMapImpl extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override

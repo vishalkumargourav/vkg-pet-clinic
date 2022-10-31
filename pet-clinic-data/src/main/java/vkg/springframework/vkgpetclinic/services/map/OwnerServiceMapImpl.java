@@ -1,10 +1,12 @@
 package vkg.springframework.vkgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import vkg.springframework.vkgpetclinic.model.Owner;
 import vkg.springframework.vkgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMapImpl extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
