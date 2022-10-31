@@ -24,13 +24,13 @@ public class DataInitialiser implements CommandLineRunner {
 
         System.out.println("Initialising Owners...");
         Owner owner1 = new Owner();
-        owner1.setId(1L);
+        //owner1.setId(1L);
         owner1.setFirstName("Micheal");
         owner1.setLastName("Weston");
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner2.setId(2L);
+        //owner2.setId(2L);
         owner2.setFirstName("Jean");
         owner2.setLastName("Paul");
         ownerService.save(owner2);
@@ -38,13 +38,13 @@ public class DataInitialiser implements CommandLineRunner {
 
         System.out.println("Initialising Vets...");
         Vet vet1 = new Vet();
-        vet1.setId(1L);
+        //vet1.setId(1L);
         vet1.setFirstName("Sam");
         vet1.setLastName("Axe");
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet2.setId(2L);
+        //vet2.setId(2L);
         vet2.setFirstName("Samuel");
         vet2.setLastName("Albert");
         vetService.save(vet2);
