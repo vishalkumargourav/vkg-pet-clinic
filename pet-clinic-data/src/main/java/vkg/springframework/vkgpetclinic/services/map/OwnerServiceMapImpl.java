@@ -1,11 +1,11 @@
 package vkg.springframework.vkgpetclinic.services.map;
 
 import vkg.springframework.vkgpetclinic.model.Owner;
-import vkg.springframework.vkgpetclinic.services.CrudService;
+import vkg.springframework.vkgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMapImpl extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMapImpl extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -30,5 +30,10 @@ public class OwnerServiceMapImpl extends AbstractMapService<Owner, Long> impleme
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }

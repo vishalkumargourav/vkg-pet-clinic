@@ -1,12 +1,11 @@
 package vkg.springframework.vkgpetclinic.services.map;
 
-import vkg.springframework.vkgpetclinic.model.Owner;
 import vkg.springframework.vkgpetclinic.model.Pet;
-import vkg.springframework.vkgpetclinic.services.CrudService;
+import vkg.springframework.vkgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMapImpl extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMapImpl extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
